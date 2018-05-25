@@ -32,5 +32,11 @@ namespace HelloWorld
             var f = new SecondaryForm();
             f.Show();
         }
+
+        private void form3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Form3();
+            f.Show();
+        }
     }
 }
