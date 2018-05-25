@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace HelloWorld
 {
-    public partial class Form2 : Form
+    public partial class SecondaryForm : Form
     {
-        public Form2()
+        public SecondaryForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

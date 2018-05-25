@@ -29,7 +29,7 @@ namespace HelloWorld
 
         private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var f = new Form2();
+            var f = new SecondaryForm();
             f.Show();
         }
     }
