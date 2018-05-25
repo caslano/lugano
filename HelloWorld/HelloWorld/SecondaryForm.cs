@@ -10,27 +10,16 @@ using System.Windows.Forms;
 
 namespace HelloWorld
 {
-    public partial class MainForm : Form
+    public partial class SecondaryForm : Form
     {
-        public MainForm()
+        public SecondaryForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hello World. Modified in Master";
-        }
-
-        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
             this.Close();
-        }
-
-        private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var f = new Form2();
-            f.Show();
         }
     }
 }
