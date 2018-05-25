@@ -21,5 +21,16 @@ namespace HelloWorld
         {
             label1.Text = "Hello World.";
         }
+
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var f = new Form2();
+            f.Show();
+        }
     }
 }
