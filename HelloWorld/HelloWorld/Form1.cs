@@ -22,7 +22,7 @@ namespace HelloWorld
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Hello World. Modified in Master";
+            label1.Text = "Hello World. Modified in Master on localhost";
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
