@@ -8,8 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//New line in Master
-//New line2 in Master
+//New line in Master localhost
+//New line2 in Master localhost
 
 namespace HelloWorld
 {
@@ -20,9 +20,9 @@ namespace HelloWorld
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //Also on localhost
         {
-            label1.Text = "Hello World. Modified in Master on web page and localhost";
+            label1.Text = "Hello World. Modified in Master on localhost";
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
