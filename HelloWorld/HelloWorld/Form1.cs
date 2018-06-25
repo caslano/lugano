@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 //New line in Master changed on web and localhost
 //New line2 in Master also on web and localhost
+//This is from web
 //This is from localhost
 
 namespace HelloWorld
@@ -21,9 +22,9 @@ namespace HelloWorld
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e) //Also changed on localhost
+        private void button1_Click(object sender, EventArgs e) //Also changed on localhost Also changed on web pag
         {
-            label1.Text = "Hello World. Modified in Master on localhost.";
+            label1.Text = "Hello World. Modified in Master on localhost and on web page.";
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
